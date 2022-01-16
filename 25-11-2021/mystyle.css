@@ -1,0 +1,33 @@
+.flex-container {
+    background-color: cornflowerblue;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  
+  .flex-items{
+      background-color: bisque;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    justify-content: center;
+    margin: 20px;
+    height: 250px;
+    width: 100%;
+    text-align:center;
+  }
+#myDiv{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    
+}
